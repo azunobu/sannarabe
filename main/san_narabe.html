@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ルービックキューブ</title>
+
+	<script src="../three.min.js"></script>
+	<script src="../OrbitControls.js"></script>
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+	<script src="cube_control.js"></script>
+	<script src="control_button.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div id="canvas_frame"></div>
+
+	<div class="button_div">
+	<table id="button">
+		<tr>
+			<td><BUTTON type="button" class="button_axis butt-ani" value="x">X</BUTTON></td>
+			<td><BUTTON type="button" class="button_axis butt-ani" value="y">Y</BUTTON></td>
+			<td><BUTTON type="button" class="button_axis butt-ani" value="z">Z</BUTTON></td>
+		</tr>
+		<tr>
+			<td><BUTTON type="button" class="button_pos butt-ani" value="0">←</BUTTON></td>
+			<td><BUTTON type="button" class="button_pos butt-ani" value="1">→</BUTTON></td>
+		</tr>
+		<tr>
+			<td><BUTTON type="button" class="button_rotate butt-ani" value="0">+</BUTTON></td>
+			<td><BUTTON type="button" class="button_rotate butt-ani" value="1">-</BUTTON></td>
+		</tr>
+		<tr>
+		</tr>
+	</table>
+	</div>
+
+</body>
+</html>
